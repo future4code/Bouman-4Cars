@@ -3,3 +3,48 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+#quem-somos{
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: center;
+	font-size: 30px;
+	height: 600px;
+	
+}
+
+#quem-somos img{
+	width: 45%;
+	height: 80%;
+	margin-top: 50px;
+}
+
+#quem-somos h2{
+	margin-left: 30px;
+	margin-right: 80px;
+	margin-top: 200px;
+	color: #a4243b;
+}
+
+#servicos{
+	color: white;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #ff5c5c;
+	height: 400px;
+	width: 100%;
+	font-size: 20px;
+}
+
+#servicos div{
+	margin:auto;
+	text-align: center;
+}
+
+#servicos img{
+	width: 50px;
+
+}
+
+
+
